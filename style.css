@@ -1,7 +1,13 @@
+.container {
+  background-image: 'foto.jpg';
+}
 .headline {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-weight: bold;
 }
-.foto {
+.image {
   width: 100%;
   height: auto;
 }
