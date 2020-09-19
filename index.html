@@ -7,49 +7,78 @@
       http-equiv="Cache-Control"
       content="no-cache, no-store, must-revalidate"
     />
-    <script
-      src="https://kit.fontawesome.com/8eead1cb3e.js"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>Vizitka</title>
   </head>
   <body>
-    <div class="container">
-      <div>
-        <h1 class="headline">
-          <span class="firstname">Martina</span> Hytychová
-        </h1>
-        <span>Web Developer</span>
+    <div class="card" id="card">
+      <div class="front">
+        <div class="flex-1">
+          <div>
+            <h1 class="headline">
+              <span class="firstname">Martina</span> Hytychová
+            </h1>
+            <span>Web Developer</span>
+          </div>
+          <img class="image" src="foto.png" alt="foto" />
+          <div class="icons">
+            <a
+              class="link"
+              href="https://www.linkedin.com/in/martina~hytychova/"
+              target="blank"
+              rel="noopener"
+            >
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a
+              class="link"
+              href="https://github.com/MartinaHytychova"
+              target="blank"
+              rel="noopener"
+            >
+              <i class="fab fa-github-square fa-2x"></i>
+            </a>
+            <a
+              class="link"
+              href="https://www.facebook.com/martina.hytychova"
+              target="blank"
+              rel="noopener"
+            >
+              <i class="fab fa-facebook-square fa-2x"></i>
+            </a>
+          </div>
+        </div>
+        <div class="flex-end">
+          <button class="button" id="button">Story</button>
+        </div>
       </div>
-      <img class="image" src="foto.png" alt="foto" />
-      <div class="icons">
-        <a
-          class="link"
-          href="https://www.linkedin.com/in/martina~hytychova/"
-          target="blank"
-          rel="noopener"
-        >
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a
-          class="link"
-          href="https://github.com/MartinaHytychova"
-          target="blank"
-          rel="noopener"
-        >
-          <i class="fab fa-github-square fa-2x"></i>
-        </a>
-        <a
-          class="link"
-          href="https://www.facebook.com/martina.hytychova"
-          target="blank"
-          rel="noopener"
-        >
-          <i class="fab fa-facebook-square fa-2x"></i>
-        </a>
+      <div class="back">
+        <div class="flex-1">
+          <div class="story">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              maxime fuga saepe. Reprehenderit, modi ullam! Iste dolore
+              explicabo molestias sunt enim eius itaque id accusamus
+              exercitationem saepe? Quisquam, doloribus quaerat?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              quia libero eaque eos expedita commodi quo corporis quasi
+              voluptatum numquam optio voluptatem labore itaque rem, quidem
+              iusto? Quis, repudiandae tempore.
+            </p>
+          </div>
+        </div>
+        <div class="flex-end">
+          <button class="button" id="back">Back</button>
+        </div>
       </div>
     </div>
     <footer>Copyright © 2020</footer>
+    <script
+      src="https://kit.fontawesome.com/8eead1cb3e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
   </body>
 </html>
