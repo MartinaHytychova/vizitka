@@ -40,6 +40,9 @@ body {
   right: 0;
   bottom: 0;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  visibility: visible;
+  backface-visibility: hidden;
   overflow: hidden;
   background-color: #f8f8ff;
 }
